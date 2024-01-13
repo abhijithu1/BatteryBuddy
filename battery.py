@@ -11,6 +11,5 @@ while True:
     charge = battery.percent
     if(status == False and charge <= 50):
         playsound("batt.mp3")
-        # C:\\Users\\abhiu\\Desktop\\python_pro\\
         time.sleep(660)
     time.sleep(60)
